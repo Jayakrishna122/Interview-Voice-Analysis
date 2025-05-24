@@ -1,0 +1,7 @@
+cd server
+then start the server using "node server.js"
+
+start the django code , "python main.py" 
+
+and now open the index file in the browser , then upload , it shows the results 
+

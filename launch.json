@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py",  // Change this to your main Flask file
+                "FLASK_ENV": "development"  // Optional: Set to "development" for debug mode
+            },
+            "args": [
+                "run",
+                "--no-reload"  // Optional: Prevents Flask from reloading automatically
+            ],
+            "jinja": true
+        }
+    ]
+}

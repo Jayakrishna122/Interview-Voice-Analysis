@@ -1,0 +1,28 @@
+ECHO is on.
+*.7z
+*.exe
+# Ignore ffmpeg build folder and large binaries
+ffmpeg-2025-04-14-git-3b2a9410ef-full_build/
+ffmpeg-2025-04-14-git-3b2a9410ef-full_build.7z
+
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
